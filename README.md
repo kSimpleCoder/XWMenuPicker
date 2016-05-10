@@ -11,8 +11,8 @@ For example: NSMutableArray * menus = @ [
               @ [@ "movie," @ "digital" @ "fashion," @ "exotic," @ "game," @ "tourism," @ "parenting," @ "to lose weight," @ "keeping in good health," @ "gourmet"]. MutableCopy
           ]. MutableCopy;
 
- XWMenuViewController * XWMenuVc = [[XWMenuViewController alloc] init].
- XWMenuVc. DateArr = menus;
+        XWMenuViewController * XWMenuVc = [[XWMenuViewController alloc] init].
+        XWMenuVc. DateArr = menus;
  
  
 <img src="https://github.com/kSimpleCoder/XWMenuPicker/blob/master/border.PNG" width = "320" alt="带边框" align=center />
@@ -26,10 +26,14 @@ For example: NSMutableArray * menus = @ [
 
 ## 使用介绍
 使用时将XWMenuPicker拖到工程里面，引入“XWMenuViewController.h”头文件，将他的dateArr赋值即可（注意是可变数组）。
-例如：    NSMutableArray *menus = @[
+例如：    
+    ```
+      NSMutableArray *menus = @[
                  @[@"推荐",@"热点",@"杭州",@"社会",@"娱乐",@"科技",@"汽车",@"体育",@"订阅",@"财经"].mutableCopy,
                  @[@"电影",@"数码",@"时尚",@"奇葩",@"游戏",@"旅游",@"育儿",@"减肥",@"养生",@"美食"].mutableCopy
                  ].mutableCopy;
           
-          XWMenuViewController *XWMenuVc = [[XWMenuViewController alloc] init];
-          XWMenuVc.dateArr = menus;
+      XWMenuViewController *XWMenuVc = [[XWMenuViewController alloc] init];
+      XWMenuVc.dateArr = menus;
+    
+    ```
