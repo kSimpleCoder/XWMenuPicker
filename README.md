@@ -15,6 +15,7 @@ For example:
 
         XWMenuViewController * XWMenuVc = [[XWMenuViewController alloc] init].
         XWMenuVc. DateArr = menus;
+        [self.navigationController pushViewController:XWMenuVc animated:YES];
  
  
 <img src="https://github.com/kSimpleCoder/XWMenuPicker/blob/master/border.PNG" width = "320" alt="带边框" align=center />
@@ -37,4 +38,5 @@ For example:
           
       XWMenuViewController *XWMenuVc = [[XWMenuViewController alloc] init];
       XWMenuVc.dateArr = menus;
+      [self.navigationController pushViewController:XWMenuVc animated:YES];
     
