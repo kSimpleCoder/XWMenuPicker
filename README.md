@@ -4,7 +4,7 @@ This channel will enter another partition. We can also through the long press ev
 Move across partitions, channel can be dragged to another partition and rearrangement.
 
 ## Usage
-XWMenuPicker will drag when used in engineering, the introduction of "XWMenuViewController. H" header files, to his dateArr assignment (note) is mutable array.
+XWMenuPicker will drag when used in engineering, the introduction of 'XWMenuViewController.h' header files, to his dateArr assignment (note) is mutable array.
 
 For example:
 
@@ -28,7 +28,7 @@ For example:
 跨分区移动，可以将频道拖到另一个分区并且进行重排。
 
 ## 使用介绍
-使用时将XWMenuPicker拖到工程里面，引入“XWMenuViewController.h”头文件，将他的dateArr赋值即可（注意是可变数组）。
+使用时将XWMenuPicker拖到工程里面，引入'XWMenuViewController.h'头文件，将他的dateArr赋值即可（注意是可变数组）。
 例如：    
     
       NSMutableArray *menus = @[
