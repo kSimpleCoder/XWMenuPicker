@@ -6,10 +6,12 @@ Move across partitions, channel can be dragged to another partition and rearrang
 ## Usage
 XWMenuPicker will drag when used in engineering, the introduction of "XWMenuViewController. H" header files, to his dateArr assignment (note) is mutable array.
 
-For example: NSMutableArray * menus = @ [
+For example:
+
+      NSMutableArray * menus = @ [
               @ [@ "recommended" @ "hot spots", @ "hangzhou" @ "society," @ "entertainment," @ "science and technology," @ "cars," @ "sports," @ "subscribe", @ "financial"]. MutableCopy,
               @ [@ "movie," @ "digital" @ "fashion," @ "exotic," @ "game," @ "tourism," @ "parenting," @ "to lose weight," @ "keeping in good health," @ "gourmet"]. MutableCopy
-          ]. MutableCopy;
+        ]. MutableCopy;
 
         XWMenuViewController * XWMenuVc = [[XWMenuViewController alloc] init].
         XWMenuVc. DateArr = menus;
