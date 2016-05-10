@@ -27,7 +27,7 @@ For example: NSMutableArray * menus = @ [
 ## 使用介绍
 使用时将XWMenuPicker拖到工程里面，引入“XWMenuViewController.h”头文件，将他的dateArr赋值即可（注意是可变数组）。
 例如：    
-    ```objc
+    ```objective-c
       NSMutableArray *menus = @[
                  @[@"推荐",@"热点",@"杭州",@"社会",@"娱乐",@"科技",@"汽车",@"体育",@"订阅",@"财经"].mutableCopy,
                  @[@"电影",@"数码",@"时尚",@"奇葩",@"游戏",@"旅游",@"育儿",@"减肥",@"养生",@"美食"].mutableCopy
